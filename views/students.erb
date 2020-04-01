@@ -1,0 +1,13 @@
+<div class="student_deets">
+<%for student in @students %>
+<p>Student name: <%=student.full_name() %></p>
+<p>Age: <%=student.age%></p>
+<p>House: <%=student.house_name %></p>
+<img class="img" src="<%=student.house_logo%>" alt="">
+<br>
+<%end%>
+</div>
+
+<a href="/home/students/create">
+<button class="button" type="button" name="button">Create New Student</button>
+</a>
