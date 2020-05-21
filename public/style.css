@@ -3,69 +3,93 @@ body {
   background-image: url("/hogwarts.jpg");
   background-attachment: fixed;
   background-position: center;
+  opacity: 85%;
   font-family: 'Sofia', serif;
   color: white;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  display: block;
+  text-align: center;
+}
+
+.content-container {
+  display: inline-block;
+  overflow: auto;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .title {
-  font-size: 45px;
-  text-align: center;
+  font-size: 125px;
 }
 
 .sub_title {
-  font-size: 30px;
-  text-align: center;
-  padding-bottom: 30px;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
 
-.student_deets {
+.student-deets {
   font-size: 25px;
-  text-align: center;
+  border: solid;
+  background-color: black;
+  width: 200px;
+  display: inline-block;
 }
 
 .success {
-  font-style: 35px;
-  text-align: center;
+  font-size: 45px;
 }
 
-.form {
+form {
+  border: solid;
+  background-color: black;
+  width: 400px;
+  height: 300px;
+}
+
+.form-section {
+  margin: 10px;
+}
+
+label {
+  width: 30%;
   font-size: 20px;
-  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+input, select {
+  width: 60%;
+  float: left;
+  border: solid;
+  overflow: auto;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  margin: 5px;
+  height: 30px;
+}
+
+.form-button {
+  width: 100%;
+  overflow: auto;
   padding-top: 30px;
-  padding-bottom: 10px;
 }
 
-.student_button {
+button {
   background-color: Transparent;
   color: white;
   border: 2px solid white;
   font-size: 30px;
   font-family: 'Sofia', serif;
-  margin: -20px -50px;
-  position: relative;
-  top:50%;
-  left:49%;
+  overflow: auto;
 }
 
-.button {
-  background-color: Transparent;
-  color: white;
-  border: 2px solid white;
-  font-size: 30px;
-  font-family: 'Sofia', serif;
-  margin: -20px -50px;
-  position: relative;
-  top:50%;
-  left:45%;
-}
-
-.form_button {
-  background-color: Transparent;
-  color: white;
-  border: 2px solid white;
-  font-size: 30px;
-  font-family: 'Sofia', serif;
+button:hover {
+  cursor: pointer;
+  opacity: 70%;
 }
 
 .yield {
@@ -73,8 +97,10 @@ body {
   padding-top: 60px;
 }
 
-.img {
-    max-width:5%;
-    height:auto;
-    padding-bottom: 25px;
+.button-container {
+  margin-top: 50px;
+}
+
+img {
+  width: 80px;
 }

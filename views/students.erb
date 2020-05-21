@@ -1,13 +1,18 @@
-<div class="student_deets">
-  <%for student in @students %>
-  <p>Student name: <%=student.full_name() %></p>
-  <p>Age: <%=student.age%></p>
-  <p>House: <%=student.house_name %></p>
-  <img class="img" src="<%=student.house_logo%>" alt="">
-  <br>
-  <%end%>
+<div class="content-container">
+  <div class="student-deets">
+    <%for student in @students %>
+    <img src="<%=student.house_logo%>">
+    <p><%=student.full_name() %></p>
+    <p>Age: <%=student.age%></p>
+    <p><%=student.house_name %></p>
+    <br>
+    <%end%>
+  </div>
 </div>
 
-<a href="/home/students/create">
-  <button class="button" type="button" name="button">Create New Student</button>
-</a>
+
+<div class="button-container">
+  <a href="/home/students/create">
+    <button class="button" type="button" name="button">Create New Student</button>
+  </a>
+</div>

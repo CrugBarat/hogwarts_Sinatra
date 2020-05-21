@@ -1,19 +1,30 @@
-<form class="form" action="/home" method="POST">
-  <label for="first_name">First Name:</label>
-  <input id="first_name" type="string" name="first_name" required/>
-  <label for="last_name">Last Name: </label>
-  <input id="last_name" type="string" name="last_name" required/>
-  <label for="age">Age:      </label>
-  <input id="age" type="number" name="age" required/>
-  <select id="houses" name="house_id">
-    <% for houses in @houses %>
-    <option value="<%= houses.id %>">
-      <%=  houses.house_name %>
-    </option>
-    <% end %>
-  </select>
-  <br/>
-  <br/>
-  <button class="form_button" type="submit" name="button">Submit</button>
+<div class="content-container">
+  <form class="form" action="/home" method="POST">
+    <div class="form-section">
+      <label for="first_name">First Name</label>
+      <input id="first_name" type="string" name="first_name" required/>
+    </div>
+    <div class="form-section">
+      <label for="last_name">Last Name</label>
+      <input id="last_name" type="string" name="last_name" required/>
+    </div>
+    <div class="form-section">
+      <label for="age">Age</label>
+      <input id="age" type="number" name="age" required/>
+    </div>
+    <div class="form-section">
+      <label for="house">House:</label>
+      <select id="houses" name="house_id">
+        <% for houses in @houses %>
+        <option value="<%= houses.id %>">
+          <%=  houses.house_name %>
+        </option>
+        <% end %>
+      </select>
+    </div>
+    <div class="form-button">
+      <button type="submit" name="button">Submit</button>
+    </div>
 
-</form>
+  </form>
+</div>

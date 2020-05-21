@@ -8,10 +8,10 @@ Student.delete_all()
 
 
 house1 = House.new({'house_name' => 'Gryffindor',
-                    'logo' => '/gryffindor.jpg'})
+                    'logo' => '/gryff.png'})
 
 house2 = House.new({'house_name' => 'Slytherin',
-                    'logo' => '/slytherin.png'})
+                    'logo' => '/slyth.png'})
 
 house1.save()
 house2.save()
