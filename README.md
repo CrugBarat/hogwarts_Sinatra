@@ -1,4 +1,4 @@
-<img src="https://github.com/CrugBarat/my_files/blob/master/hogwarts/hw1.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/hogwarts/hw2.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/hogwarts/hw3.png" width="300">
+<img src="https://github.com/CrugBarat/my_files/blob/master/hogwarts/hw_1.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/hogwarts/hw_2.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/hogwarts/hw_3.png" width="300">
 
 # Hogwarts
 
