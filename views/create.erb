@@ -7,13 +7,13 @@
   <input id="age" type="number" name="age" required/>
   <select id="houses" name="house_id">
     <% for houses in @houses %>
-      <option value="<%= houses.id %>">
-          <%=  houses.house_name %>
-      </option>
+    <option value="<%= houses.id %>">
+      <%=  houses.house_name %>
+    </option>
     <% end %>
   </select>
-    <br/>
-    <br/>
-    <button class="form_button" type="submit" name="button">Submit</button>
+  <br/>
+  <br/>
+  <button class="form_button" type="submit" name="button">Submit</button>
 
 </form>
