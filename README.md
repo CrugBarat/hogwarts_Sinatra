@@ -2,6 +2,8 @@
 
 # Hogwarts
 
+A basic app which views and enrols students.
+
 **Programming Language**: Ruby
 
 **Markup/Styling**: HTML5/CSS3
